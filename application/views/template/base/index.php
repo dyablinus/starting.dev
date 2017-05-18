@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="<?= base_url("/node_modules/font-awesome/css/font-awesome.min.css") ?>">
     <link rel="stylesheet" href="<?= base_url("/assets/css/style.css")?>">
      <link rel="stylesheet" href="<?= base_url("/assets/css/nav.css")?>">
+    <link rel="stylesheet" href="<?= base_url("/assets/css/footer.css")?>">
    
     <title>Document</title>
 </head>
@@ -18,6 +19,7 @@
 <?php  $this->load->view('template/base/nav'); ?> 
 
 <?= $view_content ?> 
+
 
 
   
