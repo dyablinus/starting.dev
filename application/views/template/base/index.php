@@ -7,19 +7,19 @@
     <link rel="stylesheet" media="screen" href="<?= base_url ("/node_modules/bootstrap/dist/css/bootstrap.min.css") ?>">
     <link rel="stylesheet" href="<?= base_url("/node_modules/font-awesome/css/font-awesome.min.css") ?>">
     <link rel="stylesheet" href="<?= base_url("/assets/css/style.css")?>">
+     <link rel="stylesheet" href="<?= base_url("/assets/css/nav.css")?>">
    
     <title>Document</title>
 </head>
 <body>
 
 
-<div class="container">
+
 <?php  $this->load->view('template/base/nav'); ?> 
 
 <?= $view_content ?> 
 
 
-</div>
   
     
 <?php $this->load->view('template/base/footer');?>
